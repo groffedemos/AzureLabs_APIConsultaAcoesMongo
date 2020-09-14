@@ -11,7 +11,7 @@ jobs:
   build:
 
     env:
-      NOME_IMAGEM: $DOCKER_CONTAINER_REGISTRY/apiconsultaacoesmongo
+      NOME_IMAGEM: azlab0.azurecr.io/apiconsultaacoesmongo
       PATH_PROJETO: ./APIConsultaAcoesMongo
 
     runs-on: ubuntu-latest
